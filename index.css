@@ -2,7 +2,10 @@
 	text-align: right;
 }
 
-
+nav navbar-nav 
+{
+	margin-left: -25px;
+}
 	.container1 {
 		min-width: 700px;
 	}
