@@ -68,12 +68,7 @@
 		    background-position: 50%;
 		}
 
-		@media all and (max-width: 1024px) { /* Specific to this particular image */
-		  .topContainer {
-		    height:200%;
-		    width:100%;   /* 50% */
-		    background-size:cover;
-		  }
+
 		}
 
 		.topContainer {
@@ -85,66 +80,7 @@
 			
 		}
 
-		@media only screen and (max-width: 1425px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:950px;
-				}
-			
-		}
-
-		@media only screen and (max-width: 1150px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:1050px;
-				}
-			
-		}
-
-		@media only screen and (max-width: 850px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:1100px;
-				}
-			
-		}
-
-		@media only screen and (max-width: 762px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:1000px;
-				}
-			
-		}
-
-		@media only screen and (max-width: 722px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:1100px;
-				}
-			
-		}
-
-		@media only screen and (max-width: 500px)
-		{
-			
-				[class*="topContainer"]
-				{
-					height:1300px;
-				}
-			
-		}
-
+		
 	.fstPage {
 			background-image: /*linear-gradient(rgba(0, 0, 0, 0.65),rgba(137, 255, 212, 0.65)),*/ url(Background.jpg);
 			height: 1000px;
@@ -152,19 +88,7 @@
 			
 		}
 
-		@media only screen and (max-width: 997px)
-		{
-			
-				[class*="fstPage"]
-				{
-					height:1500px;
-				}
-			
-		}
-
-	
 		
-
 		.paddingTop3{
 			margin-top:0px;
 		}
