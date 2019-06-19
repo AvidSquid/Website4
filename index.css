@@ -32,6 +32,82 @@
 		color: #6ecece;
 		}
 
+		@media all and (max-width: 1024px) { /* Specific to this particular image */
+		  .topContainer {
+		    height:200%;
+		    width:100%;   /* 50% */
+		    background-size:cover;
+		  }
+		}
+
+		.topContainer {
+			height:800px;
+			min-width: 50%;
+			max-width:100%;
+			background-color:black;
+			background-size:cover;
+			
+		}
+
+		@media only screen and (max-width: 1425px)
+		{
+			
+				[class*="topContainer"]
+				{
+					height:950px;
+				}
+			
+		}
+
+		@media only screen and (max-width: 1150px)
+		{
+			
+				[class*="topContainer"]
+				{
+					height:1050px;
+				}
+			
+		}
+
+		@media only screen and (max-width: 850px)
+		{
+			
+				[class*="topContainer"]
+				{
+					height:1100px;
+				}
+			
+		}
+
+		@media only screen and (max-width: 762px)
+		{
+			
+				[class*="topContainer"]
+				{
+					height:1000px;
+				}
+			
+		}
+
+		@media only screen and (max-width: 722px)
+		{
+			
+				[class*="topContainer"]
+				{
+					height:1100px;
+				}
+			
+		}
+
+		@media only screen and (max-width: 500px)
+		{
+			
+				[class*="topContainer"]
+				{
+					height:1300px;
+				}
+			
+		}
 	
 .parallax1{
     background-image: linear-gradient(
