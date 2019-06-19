@@ -162,6 +162,15 @@
 			width:100%;
 			
 		}
+	@media only screen and (max-width: 997px)
+		{
+			
+				[class*="fstPage"]
+				{
+					height:1500px;
+				}
+			
+		}
 
 		
 		.paddingTop3{
